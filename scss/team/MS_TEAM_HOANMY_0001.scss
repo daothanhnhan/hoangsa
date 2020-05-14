@@ -1,0 +1,38 @@
+.gb-doingunhanvien_hoanmy{
+  .gb-doingunhanvien_hoanmy-left{
+    margin-bottom: 40px;
+    h2{
+      text-transform: uppercase;
+      font-size: 36px;
+      color: #00668a;
+      text-align: left;
+    }
+    .uniderline_hoanmy{
+      width: 100px;
+      height: 2px;
+      background: $color-main-seafood;
+    }
+    p{
+      font-size: 14px;
+      line-height: 25px;
+      margin-top: 10px;
+      color: #777777;
+    }
+    ul{
+      li{
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 10px;
+        color: #777777;
+        i{
+          color: $color-main-seafood;
+          font-weight: 600;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  .gb-doingunhanvien_hoanmy-right{
+
+  }
+}

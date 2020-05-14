@@ -1,0 +1,24 @@
+.footer-address-seafood{
+  ul{
+    position: relative;
+    padding-bottom: 20px;
+    li{
+      position: relative;
+      padding: 0;
+      border: 0;
+      margin-bottom: 5px;
+      color: #979797;
+      font-size: 14px;
+      line-height: 30px;
+      .hl{
+        font-weight: bold;
+        width: 20%;
+        float: left;
+      }
+      .text{
+        width: 80%;
+        float: left;
+      }
+    }
+  }
+}

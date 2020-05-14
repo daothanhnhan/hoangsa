@@ -1,0 +1,1 @@
+<button type="" class="btn_addCart" onclick="load_url('<?php echo $row1['product_id']; ?>', '<?php echo $rowLang1['lang_product_name']; ?>', '<?php echo $row1['product_price'] - ($row1['product_price'] * ($row1['product_price_sale'] / 100)); ?>')">Thêm vào giỏ</button>

@@ -1,0 +1,87 @@
+.gb-tintucmoinhat_hoanmy{
+  background: #f1f1f1;
+  padding: 50px 0;
+  .gb-tintucmoinhat_hoanmy-title{
+    margin-bottom: 30px;
+    h2{
+      text-transform: uppercase;
+      font-size: 36px;
+      color: #00668a;
+      text-align: center;
+    }
+    img{
+      margin:  auto;
+    }
+  }
+  .gb-tintucmoinhat_hoanmy-item{
+    .item-img_hoanmy{
+      position: relative;
+      border-bottom: 2px solid $color-main-seafood;
+      a{
+        img{
+          height: 257px;
+        }
+      }
+      .item-time_honamy{
+        background-color: #1a1a1a;
+        position: absolute;
+        padding: 8px 15px;
+        color: #fff;
+        bottom: 0;
+        left: 0;
+        height: 36px;
+        z-index: 1;
+        font-size: 14px;
+        font-style: italic;
+        i{
+          position: relative;
+          background: $color-main-seafood;
+          color: #fff;
+          display: inline-block;
+          text-align: center;
+          width: 40px;
+          height: 36px;
+          line-height: 36px;
+          margin-top: -8px;
+          margin-left: -15px;
+          margin-right: 15px;
+        }
+      }
+    }
+    .item-text_hoanmy{
+      padding: 30px;
+      background-color: #FFF;
+      h3{
+        a{
+          font-size: 20px;
+          line-height: 24px;
+          color: #3d474a;
+          display:  block;
+        }
+      }
+    }
+    .item-author-comment_hoanmy{
+      margin: 15px 0;
+      ul{
+        li{
+          padding: 0;
+          display: inline-block;
+          font-style: italic;
+          font-size: 14px;
+          i{
+            color: #7b7b7b;
+            margin: 0 5px;
+          }
+          a{
+            color: #a9a9a9;
+          }
+        }
+      }
+    }
+    p{
+      font-size: 14px;
+      line-height: 25px;
+      color: #777777;
+    }
+  }
+}

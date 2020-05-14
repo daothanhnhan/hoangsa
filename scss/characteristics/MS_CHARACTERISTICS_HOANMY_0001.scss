@@ -1,0 +1,53 @@
+.gb-gitricotloi_hoanmy{
+  padding: 50px 0;
+  background: #f1f1f1;
+  .gb-gitricotloi_hoanmy-title{
+    margin-bottom: 40px;
+    h2{
+      text-transform: uppercase;
+      font-size: 36px;
+      padding-left: 12px;
+      color: #00668a;
+      text-align: center;
+    }
+    .uniderline_hoanmy{
+      width: 100px;
+      height: 2px;
+      background: $color-main-seafood;
+      margin: 0 auto;
+    }
+  }
+
+  .gb-gitricotloi_hoanmy-item{
+    .item-img_hoanmy{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 90px;
+      width: 90px;
+      height: 90px;
+      font-size: 45px;
+      border: 2px solid $color-main-seafood;
+      border-radius: 50%;
+      margin:  0 auto;
+      margin-bottom: 15px;
+    }
+    .item-text-hoanmy{
+      text-align: center;
+      h4{
+        font-size: 16px;
+        color: #4b4b4b;
+        line-height: 1.5;
+        margin: 0 0 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      p{
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 10px;
+        color: #777777;
+      }
+    }
+  }
+}

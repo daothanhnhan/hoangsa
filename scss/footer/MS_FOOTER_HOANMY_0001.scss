@@ -1,0 +1,62 @@
+.footer-main-content_seafood{
+  background-color: #1a1a1a;
+  padding: 70px 0 60px;
+  position: relative;
+  z-index: 1;
+  border-style: solid;
+}
+.copyright-area_seafood{
+  p{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 15px 0;
+    color: #7a7a7a;
+  }
+}
+.widget-title-footer-seafood{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #fff;
+  position: relative;
+  line-height: 45px;
+  &:after{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: $color-main-seafood;
+    position:  absolute;
+    bottom: 0;
+    left:  0;
+  }
+}
+
+.footer-link-seafood{
+  ul{
+    li{
+      width: 50%;
+      float: left;
+      padding: 0 0 12px;
+      a{
+        font-size: 14px;
+        line-height: 30px;
+        color: $color-grey;
+      }
+    }
+  }
+}
+
+.footer-about-seafood{
+  img{
+    width: 70%;
+  }
+  p{
+    font-size: 14px;
+    line-height: 30px;
+    color: $color-grey;
+    margin-top: 20px;
+  }
+}

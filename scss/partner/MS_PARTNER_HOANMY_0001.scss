@@ -1,0 +1,39 @@
+.gb-partner_hoanmy{
+  h2{
+    position: relative;
+    font-weight: 700;
+    color: #343434;
+    font-size: 24px;
+    line-height: 1.35;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f8f8f8;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    text-align: left;
+    &:before{
+      content: "";
+      width: 80px;
+      border-top: 2px solid $color-main-seafood;
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+    }
+  }
+  ul{
+    margin: 0 -5px;
+    display:  flow-root;
+    li{
+      .partner-item{
+        padding: 0 5px 10px;
+        width: 33.333%;
+        float: left;
+        text-align: center;
+        a{
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
